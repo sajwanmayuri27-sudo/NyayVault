@@ -64,43 +64,12 @@ NyayVault/
 
 
 🛠️ Tech Stack
+
 Backend Framework: Python, FastAPI, Uvicorn
 Database & ORM: SQLAlchemy, Pydantic
 Frontend: HTML5, CSS3, Vanilla JavaScript (ES6 Modules)
 Security & Cryptography: SHA-256 Hashing, JSON Web Tokens (JWT), Solidity (Smart Contracts)
 File Processing: ReportLab / PDF utilities, EXIF toolkits
-⚙️ Getting Started & Installation
-Prerequisites
-Python 3.10 or higher
-Git
-1. Clone & Navigate
-Bash
-git clone <repository-url>
-cd SIHnyayvault/NyayVault
-2. Set Up Virtual Environment
-Bash
-python -m venv venv
-# On Windows:
-venv\Scripts\activate
-# On macOS/Linux:
-source venv/bin/activate
-3. Install Dependencies
-Bash
-pip install -r requirements.txt
-4. Configure Environment Variables
-Copy the template file and configure your local environment settings:
-Bash
-cp .env.example .env
-5. Seed Initial Data
-Populate the database with default administrative accounts and mock case data:
-Bash
-python seed_data.py
-6. Run the FastAPI Server
-Bash
-uvicorn app.main:app --reload --host 127.0.0.1 --port 8000
-API Documentation (Swagger UI): http://127.0.0.1:8000/docs
-🖥️ Accessing the Frontend
-Open the frontend/login.html file directly in any modern browser, or host the frontend/ directory using a local static server (e.g., Live Server extension in VS Code).
-Use your seeded credentials to log in and interact with the frontend/dashboard.html interface.
-📜 License
-Developed for the Smart India Hackathon. All rights reserved.
+
+
+
